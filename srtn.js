@@ -12,7 +12,7 @@ function insertionSort(arr) {
         j--;
       }
   
-      // Place the current element in its correct position in the sorted portion
+      // Place the current element in its correct position in the sorted portion one
       arr[j + 1] = currentElement;
     }
     return arr;
